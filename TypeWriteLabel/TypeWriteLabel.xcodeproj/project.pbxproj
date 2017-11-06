@@ -223,7 +223,7 @@
 				TargetAttributes = {
 					BA4CCDAF1EF3C93200FD51B8 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7426795NL9;
+						DevelopmentTeam = RUC4M4RM64;
 						ProvisioningStyle = Automatic;
 					};
 					BA4CCDC81EF3C93500FD51B8 = {
@@ -445,11 +445,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7426795NL9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUC4M4RM64;
 				INFOPLIST_FILE = TypeWriteLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shqfch-163.com.TypeWriteLabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -457,11 +460,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7426795NL9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RUC4M4RM64;
 				INFOPLIST_FILE = TypeWriteLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shqfch-163.com.TypeWriteLabel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -534,6 +540,7 @@
 				BA4CCDDF1EF3C93600FD51B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4CCDE01EF3C93600FD51B8 /* Build configuration list for PBXNativeTarget "TypeWriteLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +549,7 @@
 				BA4CCDE21EF3C93600FD51B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4CCDE31EF3C93600FD51B8 /* Build configuration list for PBXNativeTarget "TypeWriteLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +558,7 @@
 				BA4CCDE51EF3C93600FD51B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -51,8 +51,16 @@
     [self.typeLabel setText:@"拉塞尔·威斯布鲁克（Russell Westbrook）， 1988年11月12日出生于美国加利福尼亚州长滩（Long Beach, CA），美国职业篮球运动员，司职控球后卫，效力于NBA俄克拉荷马城雷霆队。\n拉塞尔·威斯布鲁克于2008年通过选秀进入NBA，新秀赛季入选最佳新秀阵容第一阵容；6次入选全明星阵容，2015、2016连续两年获得全明星赛MVP；2次入选最佳阵容第一阵容，4次入选最佳阵容第二阵容。\n2017年4月10日，雷霆客场106-105战胜掘金，拉塞尔·威斯布鲁克出场37分钟，得到50分16篮板10助攻，收获赛季第42次、职业生涯常规赛第79次三双，打破了1961-62赛季奥斯卡·罗伯特森创造的单赛季41次三纪录。同时，这是威斯布鲁克赛季第3次得分50+的三双，成为NBA历史第一人"];
     [self.typeLabel startTypewrite];
     
+    
+    
 }
 
+
+-(void)viewSafeAreaInsetsDidChange {
+    [super viewSafeAreaInsetsDidChange];
+    
+    
+}
 
 
 - (void)didReceiveMemoryWarning {
